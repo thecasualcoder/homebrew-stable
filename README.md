@@ -1,2 +1,10 @@
 # homebrew-stable
-Homebrew tap for this organization
+
+Homebrew tap for thecasualcoder organization
+
+# Usage
+
+```
+brew tap thecasualcoder/stable
+brew install <formula-name>
+```

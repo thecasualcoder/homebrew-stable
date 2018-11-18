@@ -1,8 +1,8 @@
 class Tztail < Formula
     desc "tail with timezones"
     homepage "https://github.com/thecasualcoder/tztail"
-    url "https://github.com/thecasualcoder/tztail/releases/download/1.0.0/tztail_1.0.0_darwin_amd64.tar.gz"
-    sha256 "2264175a09f741752493542137947efd296b53a2f93edc330814a754a3679238"
+    url "https://github.com/thecasualcoder/tztail/releases/download/1.1.0/tztail_1.1.0_darwin_amd64.tar.gz"
+    sha256 "42df063dd5072aa4ea753e533554c8cff4845c6a2523c46b127e15022752c1cf"
     def install
       bin.install "tztail"
     end

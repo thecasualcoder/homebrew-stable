@@ -4,7 +4,7 @@ $bin_name = "stolon"
 class Stolon < Formula
     desc "Stolon is a cloud native PostgreSQL manager for high availability"
     homepage "https://github.com/sorintlab/stolon"
-    url "git@github.com:sorintlab/#{$bin_name}", using: :git, tag: $version
+    url "https://github.com/sorintlab/#{$bin_name}.git", tag: $version
     version $version
 
     depends_on "go" => :recommended

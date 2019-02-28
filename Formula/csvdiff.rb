@@ -1,10 +1,21 @@
 class Csvdiff < Formula
   desc "A Blazingly fast diff tool for comparing csv files"
   homepage "https://github.com/aswinkarthik/csvdiff"
-  url "https://github.com/aswinkarthik/csvdiff/releases/download/v1.1.0/csvdiff_1.1.0_darwin_amd64.tar.gz"
-  sha256 "4a5de1094fb4a4f33c06b81901884b839932103d3012337e3bc4656cd957f8d4"
-  version "1.1.0"
+  sha256 "7363c4062a7569a85179b2e74aa7e6e1917e18bc984aa7b19ec1add2c83129fd"
+  version "1.2.0"
+  url "https://github.com/aswinkarthik/csvdiff/archive/v#{version}.tar.gz"
+
+  depends_on "go" => :recommended
+
   def install
+    system "go",
+      "build",
+      "-ldflags",
+      "-s -w -X main.version=v#{version}",
+      "-o",
+      "csvdiff",
+      "main.go"
+
     bin.install "csvdiff"
   end
   test do

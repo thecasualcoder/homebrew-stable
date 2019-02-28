@@ -8,6 +8,7 @@ class Stolon < Formula
     version $version
 
     depends_on "go" => :recommended
+    depends_on "postgresql" => :recommended
 
     def install
         group_dir = "src/github.com/sorintlab"

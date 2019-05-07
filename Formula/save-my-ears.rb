@@ -1,9 +1,9 @@
 class SaveMyEars < Formula
   desc "Launch agent that resets volume to 25% whenever a headphone/earphone is connected to your Mac."
   homepage "https://github.com/thecasualcoder/save-my-ears"
-  version "v0.0.1"
+  version "v0.0.2"
   url "https://github.com/thecasualcoder/save-my-ears/releases/download/#{version}/#{version}.tar.gz"
-  sha256 "03be251ed3c896c2c0664ca76877b7dd2c1a9599ec2af3d01dae87b92bb92871"
+  sha256 "32176baf3ba6bc51ef1e004a21c87a4b3a99678b2d9552513e7431dd1c0d5088"
 
   def install
     bin.install "save-my-ears"

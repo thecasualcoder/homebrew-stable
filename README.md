@@ -2,14 +2,14 @@
 
 Homebrew tap for thecasualcoder organization
 
-# Usage
+## Usage
 
 ```
 brew tap thecasualcoder/stable
 brew install <formula-name>
 ```
 
-# Development Tips
+## Development Tips
 
 1. To get SHA256 associated with a release version:
 

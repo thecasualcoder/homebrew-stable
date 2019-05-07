@@ -3,7 +3,7 @@ class PgPing < Formula
     homepage "https://github.com/thecasualcoder/pg-ping"
     version "0.1.0"
     url "https://github.com/thecasualcoder/pg-ping/archive/v#{version}.tar.gz"
-    
+
     depends_on "go" => :recommended
 
     def install

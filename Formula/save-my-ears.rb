@@ -1,5 +1,5 @@
 class SaveMyEars < Formula
-  desc "Launch agent that resets volume to 25% whenever a headphone/earphone is connected to your Mac."
+  desc "Launch agent that resets volume to a lower value whenever a headphone/earphone is connected to your Mac."
   homepage "https://github.com/thecasualcoder/save-my-ears"
   version "v0.0.2"
   url "https://github.com/thecasualcoder/save-my-ears/releases/download/#{version}/#{version}.tar.gz"

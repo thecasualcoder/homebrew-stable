@@ -9,6 +9,6 @@ class Tztail < Formula
     bin.install "tztail"
   end
   test do
-    assert_match "USAGE:", shell_output("#{bin}/tztail -h", 1)
+    assert_match "tztail #{version}", shell_output("#{bin}/tztail --version")
   end
 end

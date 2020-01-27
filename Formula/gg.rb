@@ -1,9 +1,9 @@
 class Gg < Formula
   desc "A tool to manage multiple git repositories"
   homepage "https://github.com/thecasualcoder/gg"
-  url "https://github.com/thecasualcoder/gg/releases/download/0.3.0/gg-0.3.0-x86_64-darwin.tar.gz"
-  sha256 "b6ecbe3afb58f51b9127d3cf0ce3e74c283173f2f2c9691aa97ff444fdc03c0b"
-  version "0.3.0"
+  url "https://github.com/thecasualcoder/gg/releases/download/0.3.1/gg-0.3.1-x86_64-darwin.tar.gz"
+  sha256 "ed094bba103c062f695f47ab8f5730f8db18920f349fad856773381b02c8e9e1"
+  version "0.3.1"
   def install
     bin.install "gg"
   end

@@ -1,8 +1,8 @@
 class Csvdiff < Formula
   desc "A Blazingly fast diff tool for comparing csv files"
   homepage "https://github.com/aswinkarthik/csvdiff"
-  sha256 "f43be419615fbdded509fd27102b9f88e3b14284b5717576949f46af5027ac05"
-  version "1.3.0"
+  sha256 "cf9804ae5006cba3ae4ecff218f57e3d136f06d9614fd466189eacd8068d6e6a"
+  version "1.4.0"
   url "https://github.com/aswinkarthik/csvdiff/archive/v#{version}.tar.gz"
 
   depends_on "go" => :build

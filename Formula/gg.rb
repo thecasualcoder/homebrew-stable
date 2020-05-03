@@ -8,6 +8,6 @@ class Gg < Formula
     bin.install "gg"
   end
   test do
-    assert_match "Git Governance 0.2.1", shell_output("#{bin}/gg --version")
+    assert_match "Git Governance 0.3.2", shell_output("#{bin}/gg --version")
   end
 end

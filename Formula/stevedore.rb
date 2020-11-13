@@ -2,7 +2,8 @@ class Stevedore < Formula
   desc "Tool to load the cluster with containers for kubernetes to orchestrate"
   homepage "https://github.com/gojekfarm/stevedore"
   license "Apache-2.0"
-  head "https://github.com/gojekfarm/stevedore.git"
+  url "https://github.com/gojekfarm/stevedore.git", :branch => "master"
+  version "3.1.1"
   sha256 "ceb6a86560937ba1592e2b199e037acfdd07cf39ced34ad66e9a9b773b18e7a8"
 
   bottle :unneeded

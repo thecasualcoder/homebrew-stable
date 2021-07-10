@@ -1,8 +1,8 @@
 class KubeFzf < Formula
   desc "Fuzzy search over Kubernetes Pods from the command-line"
   homepage "https://github.com/thecasualcoder/kube-fzf"
-  url "https://github.com/thecasualcoder/kube-fzf/archive/v1.6.2.tar.gz"
-  sha256 "3722689339cf19fafeb46ae333a0b7c9e6d0e4eede0d8ab8c232eff899502c68"
+  url "https://github.com/thecasualcoder/kube-fzf/archive/v1.6.3.tar.gz"
+  sha256 "2e08d5d3fb84522523a8d86ba64582f75bb0154a1f838003983cbd372797455d"
   depends_on "fzf" => :recommended
   def install
     bin.install "kube-fzf.sh"

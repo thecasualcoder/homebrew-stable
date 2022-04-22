@@ -6,8 +6,6 @@ class Stevedore < Formula
   version "3.1.1"
   sha256 "ceb6a86560937ba1592e2b199e037acfdd07cf39ced34ad66e9a9b773b18e7a8"
 
-  bottle :unneeded
-
   depends_on "go" => :build
 
   def install

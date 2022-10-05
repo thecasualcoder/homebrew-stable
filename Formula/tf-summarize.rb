@@ -2,10 +2,9 @@ class TfSummarize < Formula
   desc "A command-line utility to print the summary of the terraform plan"
   homepage "https://github.com/dineshba/tf-summarize"
   license "The MIT License (MIT)"
-  version "0.2.0"
+  version "0.2.2"
   url "https://github.com/dineshba/tf-summarize.git", :tag => "v#{version}"
-  sha256 "6bfdc87aba1325831d8ae4d8c7d998723d401450fdc5a7b710ae6ca2ce1026c6"
-
+  sha256 "b7de3f0c1b0504cf58c25758818d0c2604718ce7da0e3204f86024285417e934"
   depends_on "go" => :build
 
   def install
